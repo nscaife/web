@@ -1,0 +1,34 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Dr. Nolen Scaife",
+	"icon": "https://micro.blog/drno/avatar.jpg",
+	"home_page_url": "https://nolen.io/",
+	"feed_url": "https://nolen.io/feed.json",
+	"items": [
+		
+			{
+				"id": "http://nolen.micro.blog/2022/05/06/172437.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "\n\n<img src=\"uploads/2022/b0726d7030.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-05-06T17:24:37-06:00",
+				"url": "https://nolen.io/2022/05/06/172437.html"
+			},
+			{
+				"id": "http://nolen.micro.blog/2022/04/27/taken-today-at.html",
+				
+				"content_html": "<p>Taken today at the <a href=\"https://bouldercolorado.gov/trailhead/lost-gulch-overlook\">Lost Gulch Overlook</a> near Boulder.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Taken today at the [Lost Gulch Overlook](https://bouldercolorado.gov/trailhead/lost-gulch-overlook) near Boulder.\n\n<img src=\"uploads/2022/d6ca5eaa57.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-04-27T19:16:28-06:00",
+				"url": "https://nolen.io/2022/04/27/taken-today-at.html"
+			},
+			{
+				"id": "http://nolen.micro.blog/2022/04/26/moving-my-site.html",
+				
+				"content_html": "<p>Moving my site from Squarespace to Micro.blog. After reading through <a href=\"https://book.micro.blog\">Indie Microblogging</a>, I decided that supporting indie software development and owning my content was the best of both worlds.</p>\n",
+				"content_text": "Moving my site from Squarespace to Micro.blog. After reading through [Indie Microblogging](https://book.micro.blog), I decided that supporting indie software development and owning my content was the best of both worlds.\n",
+				"date_published": "2022-04-26T12:28:12-06:00",
+				"url": "https://nolen.io/2022/04/26/moving-my-site.html"
+			}
+	]
+}
