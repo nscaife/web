@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://nolen.micro.blog/2023/02/19/this-is-a.html",
+				
+				"content_html": "<p>This is a great introduction to the methods behind ChatGPT and some of its ML underpinnings. <a href=\"https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/\">What is ChatGPT Doing and Why Does It Work?</a> 📚</p>\n",
+				"content_text": "This is a great introduction to the methods behind ChatGPT and some of its ML underpinnings. [What is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) 📚\n",
+				"date_published": "2023-02-19T11:21:06-07:00",
+				"url": "https://nolen.io/2023/02/19/this-is-a.html",
+				"tags": ["reading"]
+			},
+			{
 				"id": "http://nolen.micro.blog/2022/10/14/looks-like-the.html",
 				
 				"content_html": "<p>Looks like the House of the Dead monitor is working again. Just in time for Halloween! Can’t wait to get this installed in the cabinet this weekend.</p>\n<!-- raw HTML omitted -->\n",
