@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://nolen.micro.blog/2023/04/18/more-typewriter-art.html",
+				
+				"content_html": "<p>More typewriter art with the DaisyWriter (this is a scan of the print)</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "More typewriter art with the DaisyWriter (this is a scan of the print)\n\n<img src=\"uploads/2023/80e0a2ed65.png\" width=\"600\" height=\"361\" alt=\"\">\n",
+				"date_published": "2023-04-18T23:36:23-06:00",
+				"url": "https://nolen.io/2023/04/18/more-typewriter-art.html",
+				"tags": ["retro"]
+			},
+			{
+				"id": "http://nolen.micro.blog/2023/04/18/typewriter-art-with.html",
+				"title": "Typewriter Art with the DaisyWriter",
+				"content_html": "<p>Over the past few months, I&rsquo;ve been writing code to create DaisyWriter control code from <a href=\"https://github.com/juleskuehn/typewriter-art\">this algorithmic typewriter art algorithm</a> (academic paper is in the GitHub repo). It wasn&rsquo;t as trivial as it sounds!</p>\n<p>Through removing some unnecessary code for my purposes and adding parallelism, I&rsquo;ve been able to speed up the algorithm from days to hours. Creating a full-page image takes now approximately 6-8 hours and over 24GB of RAM. I believe I can get it faster, but not without substantial changes or a rewrite.</p>\n<p>Converting the output of this algorithm to the DaisyKey protocol involved a lot of trial and error. The documentation, sadly, is not entirely clear and I needed to write commands directly to the printer to see how it reacts.  My code outputs a file that can be copied directly to LPT1 in DOS.</p>\n<p>Perhaps I&rsquo;ll write more on this later, but for now, enjoy the attached <strong>scan</strong> of a printed image!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Over the past few months, I've been writing code to create DaisyWriter control code from [this algorithmic typewriter art algorithm](https://github.com/juleskuehn/typewriter-art) (academic paper is in the GitHub repo). It wasn't as trivial as it sounds!\n\nThrough removing some unnecessary code for my purposes and adding parallelism, I've been able to speed up the algorithm from days to hours. Creating a full-page image takes now approximately 6-8 hours and over 24GB of RAM. I believe I can get it faster, but not without substantial changes or a rewrite. \n\nConverting the output of this algorithm to the DaisyKey protocol involved a lot of trial and error. The documentation, sadly, is not entirely clear and I needed to write commands directly to the printer to see how it reacts.  My code outputs a file that can be copied directly to LPT1 in DOS.\n\nPerhaps I'll write more on this later, but for now, enjoy the attached **scan** of a printed image!\n\n<img src=\"uploads/2023/4299958ebc.png\" width=\"523\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-04-18T23:20:50-06:00",
+				"url": "https://nolen.io/2023/04/18/typewriter-art-with.html",
+				"tags": ["retro"]
+			},
+			{
 				"id": "http://nolen.micro.blog/2023/04/17/picked-up-a.html",
 				
 				"content_html": "<p>Picked up a Sony Watchman FD-20A at a flea market this weekend. Now thinking about building an RF transmitter&hellip;</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
