@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://nolen.micro.blog/2023/05/21/ive-apparently-watched.html",
+				
+				"content_html": "<p>I’ve apparently watched enough <a href=\"https://youtube.com/@adriansdigitalbasement\">Adrian’s Digital Basement</a> that I need to learn how to use an oscilloscope for my repair work.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I’ve apparently watched enough [Adrian’s Digital Basement](https://youtube.com/@adriansdigitalbasement) that I need to learn how to use an oscilloscope for my repair work.\n\n<img src=\"uploads/2023/53810416b9.jpg\" width=\"600\" height=\"450\" alt=\"Oscilloscope on work bench\">\n",
+				"date_published": "2023-05-21T12:29:30-06:00",
+				"url": "https://nolen.io/2023/05/21/ive-apparently-watched.html",
+				"tags": ["retro","personal"]
+			},
+			{
 				"id": "http://nolen.micro.blog/2023/05/19/reading-about-region.html",
 				
 				"content_html": "<p>Reading about region locking on the PC Engine/TurboGrafx consoles: apparently the locking mechanism is (mostly) based around reversing the data lines on the cards. Simple, inexpensive, and effective! <a href=\"https://nicole.express/2020/trademarks-and-region-locks-engine.html\">nicole.express/2020/trad&hellip;</a></p>\n",
