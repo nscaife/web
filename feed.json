@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://nolen.micro.blog/2025/01/30/after-a-few-minor-repairs.html",
+				
+				"content_html": "<p>After a few minor repairs and some internal wiring fun, this X68K project is complete. Keep the scene alive! 🎮</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "After a few minor repairs and some internal wiring fun, this X68K project is complete. Keep the scene alive! 🎮\n\n<img src=\"uploads/2025/3ff150d60d.jpg\" width=\"450\" height=\"600\" alt=\"X68000 and MT-32\">\n",
+				"date_published": "2025-01-30T21:34:00-07:00",
+				"url": "https://nolen.io/2025/01/30/after-a-few-minor-repairs.html",
+				"tags": ["gaming","retro"]
+			},
+			{
 				"id": "http://nolen.micro.blog/2025/01/19/clock-issue-with-the-x.html",
 				
 				"content_html": "<p>Clock issue with the X68000 was fixed by replacing the Ricoh RTC chip! Installed a socket so it will be easier next time. 😅</p>\n",
