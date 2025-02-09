@@ -25,6 +25,18 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://nolen.io/2025/02/09/i-got-to-the-end.html" class="u-url"><time class="dt-published" datetime="2025-02-09 15:50:52 -0700">Feb 9, 2025</time></a>
+
+		<div class="e-content">
+			 <p>I got to the end of the first Wario Land game but somehow I don&rsquo;t think this is the <em>good ending</em>&hellip;</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://nolen.io/2025/01/30/after-a-few-minor-repairs.html" class="u-url"><time class="dt-published" datetime="2025-01-30 21:34:00 -0700">Jan 30, 2025</time></a>
 
 		<div class="e-content">
@@ -225,7 +237,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 		<div class="e-content">
 			 <p>Back in February 2021, I bought a lot of older computer equipment on Craigslist. The year before, my pandemic project was building a DOS/Win98-era (but that’s a story for another time), and I had a few saved searches for parts. At the time, I was most interested in picking up a couple of CRT monitors.</p>
 <p>At the pickup location, it seemed like we wouldn’t be able to fit everything in the car. We made it, <em>barely</em>, but I recall driving slowly and the rearview mirror being blocked. It took almost two weeks to work through everything to see what worked, what didn’t, what should be kept, and what was junk. The gear ranged from the early 80s through the early 00s and was a standard mix: CRT monitors, printers, accessories, and cables. One thing stuck out, though.</p>
-<p><img src="https://nolen.io/uploads/2023/d3fda0cf13.jpg" alt="The DaisyWriter "></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2023/d3fda0cf13.jpg" alt="The DaisyWriter "></p>
 <h2 id="the-printer">The Printer</h2>
 <p>I hadn’t seen a printer quite like the DaisyWriter. The mechanism, a <a href="https://en.wikipedia.org/wiki/Daisy_wheel_printing"><em>daisy wheel</em></a>, turns out to be common; companies like Commodore, Tandy, and Brother made these for many years. Wheels contain a set of characters in a circle, and the printer will rotate the wheel to the desired character. These can be swapped as desired to change the type (for example, to print in script or italics). The mechanism is similar to a typewriter, since the character is pressed through a ribbon onto the paper. In many ways, the DaisyWriter is an automatic typewriter.</p>
 <p>Sadly, when the printer was turned on, it would immediately make an alarm sound and the error light would turn on. Trying to send anything to the printer failed. I posted on Twitter about the DaisyWriter in February. I couldn’t find anything about this printer online, save a few mentions of it in lists of daisy wheel printers and a <a href="https://www.chicagotribune.com/news/ct-xpm-1985-02-03-8501070465-story.html">Chicago Tribune review from 1985</a>. eBay had a single listing for a manual for the DaisyWriter. Once I ordered it, I put the printer away to tackle it later.</p>
@@ -233,20 +245,20 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 <p>A near perfect printer. It retails for $1,195. — Peter McWilliams</p>
 </blockquote>
 <p>Before I continue, I want to take a moment to note how <strong>incredibly lucky</strong> I was to find a DaisyWriter manual. This printer is a footnote in computing history at best. It configures with a bank of 24 unlabeled dip switches, and sounds a buzzer and lights a descriptive <em>ERROR</em> light when there’s a problem. Other than trial and error, there’s no way to know what the issue is.</p>
-<p><img src="https://nolen.io/uploads/2023/fe7c5e8d87.jpg" alt="Front panel of the DaisyWriter"><img src="https://nolen.io/uploads/2023/562e8f31d8.jpg" alt="A view of failure from the computer"></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2023/fe7c5e8d87.jpg" alt="Front panel of the DaisyWriter"><img src="https://cdn.uploads.micro.blog/58761/2023/562e8f31d8.jpg" alt="A view of failure from the computer"></p>
 <h2 id="repairing-and-some-help">Repairing and Some Help</h2>
 <p>In September 2021, I received an email from Jonathan, who saw my tweets and shared his experience repairing his own DaisyWriter. He also has some manuals for this printer and <a href="https://archive.org/details/daisywriter-printer-manuals/Daisywriter_Information_Manual/">uploaded them to the Internet Archive</a>. I didn’t pick up the project again until November 2022, and I was fortunate that Jonathan replied and was still interested in this printer. Over the next couple of months, he and I exchanged several emails and I learned a lot about his repairs.</p>
 <p>With manual in hand, I quickly resolved the first issue (and the one that was sounding the alarm in 2021): it was out of paper. Certain configurations of dip switches tell the printer if it has an automatic paper feeder, for example, and one behavior I noticed is that some of these settings cause the printer to check whether paper is present at power-on. It’s simple, but without the manual, I would not have known which dip switches to flip.</p>
 <p>Thankfully, the manual also describes a testing procedure. A series of button presses on the front panel begins printing information about the printer and a test of all the characters on the daisy wheel. The printer would type all the characters and move the paper correctly, but it would only indent the paper and did not transfer ink. A simple fix, I thought.</p>
 <p>I ordered a new ribbon, expecting the old one to be dry (and perhaps it was), and a week later installed it into the printer. The printer typed one or two characters with ink, then chewed a hole in the ribbon and tore it in half. I can’t remember how I knew this, but I recalled that you can tape ribbons back together. A few minutes later, the ribbon was back in service, but the printer was not.</p>
-<p><img src="https://nolen.io/uploads/2023/32d7e7c278.jpg" alt="This mechanism had old rubber that caused it to stick"></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2023/32d7e7c278.jpg" alt="This mechanism had old rubber that caused it to stick"></p>
 <p>Jonathan mentioned that he had to repair his printer’s carriage mechanism. There is a small piece of rubber on the underside that turns to goo. There’s an electromagnet that moves a weight that clicks back to the start position when the magnet disengages; when that weight hits the old rubber, it sticks. When that happens, the ribbon doesn’t advance (and the symptom for mine was the torn ribbon). The area isn’t particularly easy to reach, either! I tried to cheat and scrape out the old rubber from the side of the mechanism, but that didn’t correct it. Disassembly was challenging, but not impossible (though I did rip and repair a flex cable in the process). There are quite a few small gears and at least one C-clip that needs to be removed. Once everything was apart, it was simple to remove the old rubber and clean up the sticky residue that remained. That cleared up the ribbon issue, and I finally got a test page!</p>
-<p><img src="https://nolen.io/uploads/2023/e3402ba83a.mov" alt="Success!"></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2023/e3402ba83a.mov" alt="Success!"></p>
 <h2 id="a-detour-for-the-paper-feeder">A Detour for the Paper Feeder</h2>
 <p>My printer came with a cut sheet feeder, which is only mentioned in the manual I have long enough to refer the reader to a <em>different</em> manual, which I don’t have. It seems to be a simple enough mechanism. As the platen turns, there’s a gear that turns; the feeder attaches to this gear. This turns a mechanism on the feeder which, every so often, turns a set of rubbered wheels to push the next piece of paper down. The only trouble was that it didn’t work!</p>
 <p>Friction is created by a spring-loaded paper tray that pushes the paper towards the wheels. In my case, however, the wheels just spin on the paper. Jonathan pointed me in the direction of <a href="https://www.jjshort.com">J.J. Short</a>, who was able to create and apply new rubber for the wheels. The new rubber grips the paper well, but it still doesn’t reliably feed the paper.</p>
 <p>Sadly, this part of the story doesn’t (yet) a happy ending. I’m not certain why the paper doesn’t feed reliably. My current guess is that the feeder’s mechanism is positioned incorrectly, so the printer is expecting the paper to be in a certain position when it isn’t. I’ve decided to put this aside for a while, and I’ll pick it up again later.</p>
-<p><img src="https://nolen.io/uploads/2023/99dbda5f10.jpg" alt="The paper feeder mechanism"></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2023/99dbda5f10.jpg" alt="The paper feeder mechanism"></p>
 <h2 id="epilogue">Epilogue</h2>
 <p>This printer has been quite a project, and it still isn’t done. I’m excited to try a few new things with it, and I’ll post more on these separately!</p>
 
