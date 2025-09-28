@@ -25,11 +25,23 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://nolen.io/2025/09/28/its-prime-leaf-peeping-in.html" class="u-url"><time class="dt-published" datetime="2025-09-28 13:20:44 -0600">Sep 28, 2025</time></a>
+
+		<div class="e-content">
+			 <p>It&rsquo;s prime leaf peeping in Colorado. Already enjoying fall.</p>
+<img src="uploads/2025/93217babe1.jpg" alt="Green and gold trees with a house in the distance">
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://nolen.io/2025/07/16/neptune-build-is-underway-these.html" class="u-url"><time class="dt-published" datetime="2025-07-16 19:18:50 -0600">Jul 16, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Neptune build is underway! These fine pitches are really tough. 🎮</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/a1155be888.jpg" width="450" height="600" alt="Closeup of Sega Neptune build under magnification">
 
 		</div>
 	  </div>
@@ -41,7 +53,7 @@
 
 		<div class="e-content">
 			 <p>Coldplay @ Empower Field, Denver, CO</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/7282f34b6e85472d913ac9265632648b.jpg" width="600" height="600" alt="the stage and crowd of the Coldplay show">
 
 		</div>
 	  </div>
@@ -53,7 +65,7 @@
 
 		<div class="e-content">
 			 <p>Finished The Legend of Zelda: Echoes of Wisdom today. I’ll never say no to a 2D Zelda but this one started to feel repetitive toward the end. Out of the hundreds (?) of echoes I picked up, I found myself only needing the same 10 or so for each puzzle.</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/fe8ac11a54.jpg" width="600" height="337" alt="">
 
 		</div>
 	  </div>
@@ -65,7 +77,7 @@
 
 		<div class="e-content">
 			 <p>Finished Legend of Dragoon. Beautiful art, but everything else struggles to stand out when compared to other RPGs of the time. 🎮</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/273284885f.jpg" width="600" height="450" alt="">
 
 		</div>
 	  </div>
@@ -77,7 +89,7 @@
 
 		<div class="e-content">
 			 <p>I got to the end of the first Wario Land game but somehow I don&rsquo;t think this is the <em>good ending</em>&hellip;</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2025/image.png" width="160" height="144" alt="">
 
 		</div>
 	  </div>
@@ -89,7 +101,7 @@
 
 		<div class="e-content">
 			 <p>After a few minor repairs and some internal wiring fun, this X68K project is complete. Keep the scene alive! 🎮</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2025/3ff150d60d.jpg" width="450" height="600" alt="X68000 and MT-32">
 
 		</div>
 	  </div>
@@ -112,7 +124,7 @@
 
 		<div class="e-content">
 			 <p>First game cleared of the year!</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2025/7cdf23d165.jpg" width="600" height="337" alt="DQ3 final boss (Zoma) cleared"><img src="https://cdn.uploads.micro.blog/58761/2025/a45564e9f3.jpg" width="600" height="337" alt="To be continued in Dragon Quest I & II remake"></p>
 
 		</div>
 	  </div>
@@ -126,7 +138,7 @@
 
 		<div class="e-content">
 			 <p>I recently bought an X68000 XVI during a recent vacation to Japan. It was one of a few things on my list of items to look out for. I found one on the last day at <a href="https://www.beep-shop.com">BEEP in Akihabara</a>, a store that caters to retrocomputing hobbyists. What a dream!</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/img-4643.jpg" width="600" height="450" alt="Two X68000 systems at BEEP in Akihabara (November 2024)">
 <p>The machine had been serviced by BEEP: recapped, battery replaced, and the floppy drives were serviced. That doesn&rsquo;t mean this isn&rsquo;t a project, though! This post is an attempt to document some of testing I&rsquo;ve done and resources I&rsquo;ve found along the way.</p>
 <h2 id="getting-video">Getting Video</h2>
 <p>I ordered <a href="https://www.tindie.com/products/lacuevaretro/sharp-x68000-vga-cable-converter-adapter-rgb/">this Japanese RGB-15 to 15-pin D-SUB</a> (commonly used for VGA) adapter from Tindie, but my problems started almost immediately. The RetroTink 4K continued to show no signal on the RGBHV input while the machine was connected. I took the new cable apart to check the connections, checking the continuity between <a href="https://gamesx.com/wiki/doku.php?id=av%3Ajapanese_rgb-15">RGB-15</a> and <a href="https://pinoutguide.com/Video/VGA15_pinout.shtml">VGA pinouts</a> using my multimeter.</p>
@@ -143,16 +155,16 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 <p>The system ran fine for a couple hours with no real issues. It powered off and on fine. Later, it started not shutting down. The screen would fade out and any music would stop, but the power light would stay green and the fans would stay running. <a href="https://gamesx.com/wiki/doku.php?id=x68000:soft_power_switch_troubleshooting_and_repair">This issue seems to be documented here</a>, and implies an issue with the RTC chip. The PWRTEST program showed no issues and problem suddenly stopped. I have not been able to reproduce it since.</p>
 <p>memtest68k hangs immediately on startup. There&rsquo;s <a href="https://nfggames.com/forum2/index.php?topic=4810.msg46187#msg46187">a post on the NFG forum</a> that describes my problem exactly. The memory test never starts. It sounds like the problem for that person was also a faulty RTC chip, and I started thinking about how I could see if that chip was working at all.</p>
 <p>I decided to check the date and time set on the system, and it turns out that it&rsquo;s not updating. You can set the time and read the time, but it doesn&rsquo;t appear to increment.</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/img-4794.jpg" width="600" height="715" alt="X68000 output showing that the date and time are not incrementing">
 <p>After leaving it off for a day, it had incremented about 45 minutes.</p>
 <h3 id="oscilloscope-testing">Oscilloscope Testing</h3>
 <p><a href="https://archive.org/details/cz-634-c-cz-644-c-service-manual">Here&rsquo;s the service manual I found for this model.</a> Pages 54 and 85 show the relevant circuit.</p>
 <p>Something is definitely wrong with the RTC circuit. Here is an oscilloscope view of the CLKOUT pin:</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/sds00005.png" width="600" height="360" alt="Oscilloscope output of the CLKOUT pin">
 <p>And here is an oscilloscope view of the 32.768KHz crystal in the oscillator circuit:</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/sds00006.png" width="600" height="360" alt="Oscilloscope output of the crystal">
 <p>I&rsquo;m not yet an EE expert nor am I the best at using an oscilloscope, but here&rsquo;s what the 16MHz signal looks like off of a different crystal:</p>
-<!-- raw HTML omitted -->
+<img src="uploads/2025/sds00007.png" width="600" height="360" alt="Oscilloscope output of another crystal on the same board">
 <p>More to come, but there&rsquo;s definitely some repair that needs to be done!</p>
 
 		</div>
@@ -165,7 +177,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Chromeo @ Mission Ballroom, Denver, CO</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2024/574eed6898.jpg" width="600" height="450" alt="">
 
 		</div>
 	  </div>
@@ -177,7 +189,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Reflecting a bit on the past year today and recalling a gift now 30 years old. The technology has transformed, but my desire to connect and learn hasn&rsquo;t.</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2024/img-3681.jpeg" width="450" height="600" alt="">
 
 		</div>
 	  </div>
@@ -205,7 +217,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Weekend vibes</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2023/image.jpg" width="450" height="600" alt="">
 
 		</div>
 	  </div>
@@ -217,7 +229,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>I’ve apparently watched enough <a href="https://youtube.com/@adriansdigitalbasement">Adrian’s Digital Basement</a> that I need to learn how to use an oscilloscope for my repair work.</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2023/53810416b9.jpg" width="600" height="450" alt="Oscilloscope on work bench">
 
 		</div>
 	  </div>
@@ -240,7 +252,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>More typewriter art with the DaisyWriter (this is a scan of the print)</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2023/80e0a2ed65.png" width="600" height="361" alt="">
 
 		</div>
 	  </div>
@@ -257,7 +269,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 <p>Through removing some unnecessary code for my purposes and adding parallelism, I&rsquo;ve been able to speed up the algorithm from days to hours. Creating a full-page image takes now approximately 6-8 hours and over 24GB of RAM. I believe I can get it faster, but not without substantial changes or a rewrite.</p>
 <p>Converting the output of this algorithm to the DaisyKey protocol involved a lot of trial and error. The documentation, sadly, is not entirely clear and I needed to write commands directly to the printer to see how it reacts.  My code outputs a file that can be copied directly to LPT1 in DOS.</p>
 <p>Perhaps I&rsquo;ll write more on this later, but for now, enjoy the attached <strong>scan</strong> of a printed image!</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2023/4299958ebc.png" width="523" height="600" alt="">
 
 		</div>
 	  </div>
@@ -269,8 +281,8 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Picked up a Sony Watchman FD-20A at a flea market this weekend. Now thinking about building an RF transmitter&hellip;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote class="quoteback" data-title="" data-author="antiqueradio.org" data-avatar="https://micro.blog/antiqueradio.org/avatar.jpg" cite="https://antiqueradio.org/HomeTVTransmitter.htm"><p>Creating a Home TV Transmitter <a href="https://antiqueradio.org/HomeTVTransmitter.htm">antiqueradio.org</a></p><p class="post_archived_links">Read: <a href="https://micro.blog/bookmarks/734712">antiqueradio.org</a> </p><footer>antiqueradio.org <cite><a href="https://antiqueradio.org/HomeTVTransmitter.htm" class="u-in-reply-to">https://antiqueradio.org/HomeTVTransmitter.htm</a></cite></footer></blockquote><script src="https://micro.blog/quoteback.js"></script>
+<img src="https://cdn.uploads.micro.blog/58761/2023/f957e6fe92.jpg" width="450" height="600" alt="">
 
 		</div>
 	  </div>
@@ -320,7 +332,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Amazing weather in San Diego today for the first <a href="https://www.ndss-symposium.org/ndss-program/wosoc-2023/">Workshop on SOC Operation and Construction</a>!</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2023/3475c317c1.jpg" width="600" height="600" alt=""><img src="https://cdn.uploads.micro.blog/58761/2023/e142b156e6.jpg" width="600" height="600" alt=""></p>
 
 		</div>
 	  </div>
@@ -343,7 +355,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Looks like the House of the Dead monitor is working again. Just in time for Halloween! Can’t wait to get this installed in the cabinet this weekend.</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2022/e08ef95adc.png" width="396" height="600" alt="">
 
 		</div>
 	  </div>
@@ -355,7 +367,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Last weekend, we drove down the scenic Peak-to-Peak Highway to take in the fall scenery. We even saw a moose!</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><img src="https://cdn.uploads.micro.blog/58761/2022/4c9d6cbc6a.jpg" width="450" height="600" alt=""><img src="https://cdn.uploads.micro.blog/58761/2022/6a75ebf805.jpg" width="600" height="450" alt=""><img src="https://cdn.uploads.micro.blog/58761/2022/f7ece87b30.jpg" width="600" height="450" alt=""><img src="https://cdn.uploads.micro.blog/58761/2022/a90d4a176f.jpg" width="600" height="450" alt=""><img src="https://cdn.uploads.micro.blog/58761/2022/8cdbc8ea3f.jpg" width="600" height="450" alt=""><img src="https://cdn.uploads.micro.blog/58761/2022/8b405f1ff1.jpg" width="600" height="450" alt=""><img src="https://cdn.uploads.micro.blog/58761/2022/036ed68c9a.jpg" width="450" height="600" alt=""></p>
 
 		</div>
 	  </div>
@@ -366,7 +378,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 		<a href="https://nolen.io/2022/05/06/172437.html" class="u-url"><time class="dt-published" datetime="2022-05-06 17:24:37 -0600">May 6, 2022</time></a>
 
 		<div class="e-content">
-			 <!-- raw HTML omitted -->
+			 <img src="https://cdn.uploads.micro.blog/58761/2022/b0726d7030.jpg" width="600" height="600" alt="" />
 
 		</div>
 	  </div>
@@ -378,7 +390,7 @@ The disk image is <a href="https://archive.org/details/X68000XVISystemDisk">avai
 
 		<div class="e-content">
 			 <p>Taken today at the <a href="https://bouldercolorado.gov/trailhead/lost-gulch-overlook">Lost Gulch Overlook</a> near Boulder.</p>
-<!-- raw HTML omitted -->
+<img src="https://cdn.uploads.micro.blog/58761/2022/d6ca5eaa57.jpg" width="600" height="600" alt="" />
 
 		</div>
 	  </div>
