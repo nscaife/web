@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://nolen.micro.blog/2025/12/27/looking-for-a-working-imagewriter.html",
+				
+				"content_html": "<p>Looking for a working ImageWriter II for MARCHintosh. The one I have doesn&rsquo;t print in color. It looks like the mechanism that raises and lowers the ribbon has failed.</p>\n",
+				"content_text": "Looking for a working ImageWriter II for MARCHintosh. The one I have doesn't print in color. It looks like the mechanism that raises and lowers the ribbon has failed.\n",
+				"date_published": "2025-12-27T23:57:12-07:00",
+				"url": "https://nolen.io/2025/12/27/looking-for-a-working-imagewriter.html"
+			},
+			{
 				"id": "http://nolen.micro.blog/2025/12/21/i-spent-some-time-over.html",
 				
 				"content_html": "<p>I spent some time over the last month building a Game Boy photo booth for our holiday party, largely inspired by both <a href=\"https://there.oughta.be/a/game-boy-photo-booth\">Sebastian’s photo booth</a> and the display I saw at the Long Island Retro Gaming Expo earlier this year. Instead of using the original Game Boy Printer, I decided to use an Instax Square Link printer.</p>\n<p>The challenge with these printers is that they’re designed to be used with a smartphone app. You can’t print to it over USB and there’s no API documentation for communicating with it. Luckily, someone started reverse engineering the protocol and published it as the <a href=\"https://github.com/javl/InstaxBLE\">InstaxBLE project on GitHub</a>.</p>\n<p>The rest of the project mimics Sebastian’s work: use the GB Interceptor to acquire an 8x scaled real-time feed of images from a Game Boy Camera, crop the picture out of the image, apply a new color palette if desired (similar to how <a href=\"https://github.com/Lesserkuma/FlashGBX\">FlashGBX</a> does it), scale and crop back down to the Instax Square’s 800x800px format, and use the InstaxBLE library to send it to the printer. At least, in theory!</p>\n<p>Printing turned out to be the most unreliable part of this exercise. There’s something strange with the printer, my computer, or the library. The API would sometimes return the printer was out of film (when it wasn’t), that the print was successful (it didn’t print), or it would hang. Eventually, it became obvious that there’s a specific sequence of programmable events that would print a few pictures reliably: cycle the power on the laptop Bluetooth module, unpair the printer, search and connect for the printer, authorize the pairing, and send a print. This would tend to work for 2-3 pictures, and then the printer would stop responding until power cycled. In the end, we just helped everyone take a photo and restarted the printer when needed.</p>\n<p>I would love to spend some more time debugging this and seeing what causes this problem, but ultimately I only needed the whole system to work for a couple of hours, and people enjoyed getting their very own Game Boy Camera photo!</p>\n<!-- raw HTML omitted -->\n",
@@ -44,7 +52,7 @@
 				"id": "http://nolen.micro.blog/2025/06/08/finished-the-legend-of-zelda.html",
 				
 				"content_html": "<p>Finished The Legend of Zelda: Echoes of Wisdom today. I’ll never say no to a 2D Zelda but this one started to feel repetitive toward the end. Out of the hundreds (?) of echoes I picked up, I found myself only needing the same 10 or so for each puzzle.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Finished The Legend of Zelda: Echoes of Wisdom today. I’ll never say no to a 2D Zelda but this one started to feel repetitive toward the end. Out of the hundreds (?) of echoes I picked up, I found myself only needing the same 10 or so for each puzzle.\n\n<img src=\"uploads/2025/fe8ac11a54.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
+				"content_text": "Finished The Legend of Zelda: Echoes of Wisdom today. I’ll never say no to a 2D Zelda but this one started to feel repetitive toward the end. Out of the hundreds (?) of echoes I picked up, I found myself only needing the same 10 or so for each puzzle.\n\n<img src=\"https://cdn.uploads.micro.blog/58761/2025/fe8ac11a54.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
 				"date_published": "2025-06-08T20:04:13-07:00",
 				"url": "https://nolen.io/2025/06/08/finished-the-legend-of-zelda.html"
 			},
